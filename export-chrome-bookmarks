@@ -1,0 +1,14 @@
+#!/bin/bash
+rm -rf ~/.bookmarks.int
+mkdir ~/.bookmarks.int
+sed <.config/chromium/Default/Bookmarks -n -e '/"\(name\|url\)":/p' | sed -e 's/^\s*"\(.*\)":\s*"\(.*\)",\?$/\1: \2/' | head -n-3 | split -l 2 - ~/.bookmarks.int/bookmark\.
+for f in ~/.bookmarks.int/*
+do
+    #echo "Processing $(basename $f)" >&2
+    NAME=$(cat $f | head -n1 | sed -e 's/^name: //')
+    URL=$(cat $f | tail -n1 | sed -e 's/^url: //')
+    echo $NAME
+    echo $URL
+    echo .
+done | head -n-1
+rm -rf ~/.bookmarks.int
