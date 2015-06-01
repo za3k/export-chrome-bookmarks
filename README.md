@@ -6,7 +6,7 @@ Usage: `export-chrome-bookmarks`
 Sample output:
 
     url: http://en.wikipedia.org/wiki/Distributed_hash_table
-    http://en.wikipedia.org/wiki/Distributed_hash_table
+    name: Distributed hash table
     .
     url: http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel
     name: Data.Generics.Uniplate.Operations
