@@ -5,11 +5,11 @@ Usage: `export-chrome-bookmarks`
 
 Sample output:
 
-    url: http://en.wikipedia.org/wiki/Distributed_hash_table
-    name: Distributed hash table
+    Distributed hash table
+    http://en.wikipedia.org/wiki/Distributed_hash_table
     .
-    url: http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel
-    name: Data.Generics.Uniplate.Operations
+    Data.Generics.Uniplate.Operations
+    http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel
     .
-    url: https://hackage.haskell.org/package/uniplate-1.5.1/docs/Data-Generics-Uniplate-Operations.html
-    name: Neil Mitchell - Uniplate
+    Neil Mitchell - Uniplate
+    https://hackage.haskell.org/package/uniplate-1.5.1/docs/Data-Generics-Uniplate-Operations.html
