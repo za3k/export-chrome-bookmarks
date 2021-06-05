@@ -1,6 +1,7 @@
 # export-chrome-bookmarks
-Print chrome bookmarks in line-delimited format
-Requires 'jq'
+Print chrome/chromium bookmarks in line-delimited format.
+
+Requires 'jq'.
 
 Usage: `export-chrome-bookmarks`
 
